@@ -9,7 +9,7 @@ module.exports = (app) => {
 
 
   app.get('/cryptos2', async (req, res) => {
-    const ids = ['bitcoin', 'ethereum','litecoin']; 
+    const ids = ['bitcoin', 'ethereum','ripple','litecoin']; 
   
    
     const promises = ids.map(id =>
